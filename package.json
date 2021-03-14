@@ -1,0 +1,24 @@
+{
+  "name": "infinite-section",
+  "version": "1.0.1",
+  "description": "Virtualized window-based infinite-scrolling for sites and apps that load content in 'sections', that don't have a pre-determined width or height. Outperforms react-virtualized, and incredibly light-weight. Based on Facebook's infinite scrolling mechanism.",
+  "main": "./index.js",
+  "browser": "./index.js",
+  "keywords": [
+    "infinite scroll", "virtual scroll"
+  ],
+  "author": "Audal Labs <e@audallabs.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/audal/infinite-section.git",
+    "directory": "/"
+  },
+  "homepage": "https://github.com/audal/infinite-section",
+  "dependencies": {
+    "react-intersection-observer": "^8.31.0"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0"
+  }
+}
